@@ -37,7 +37,7 @@ Search by keyword, platform, and audience persona. Every result is scored across
 
 ## A custom LLM gateway — cost & usage you can see
 
-Not a thin API wrapper — production-grade LLM infrastructure: provider abstraction and routing across multiple models, a **two-tier cache** (Redis L1 + PostgreSQL L2), and **per-budget cost controls**. Every model call is tracked, with cost curves and budget guards. A full run over **175 pieces of content costs about $0.07** — built to stay cheap and reliable at scale.
+Not a thin API wrapper — production-grade LLM infrastructure: provider abstraction and routing across multiple models, a **two-tier cache** (Redis L1 + PostgreSQL L2), and **per-budget cost controls**. Every model call is tracked, with cost curves and budget guards. A full run processes **hundreds of items at a tiny fraction of typical LLM cost** — built to stay cheap and reliable at scale.
 
 ![LLM usage & budget](screenshots/07-llm-usage.png)
 
@@ -55,7 +55,7 @@ Not a thin API wrapper — production-grade LLM infrastructure: provider abstrac
 
 ## Results
 
-- **End-to-end automation** — a full topic-discovery run completes in ~14 minutes, producing named clusters from 175+ items for **~$0.07** in model cost.
+- **End-to-end automation** — a full topic-discovery run turns hundreds of collected items into named clusters in minutes, at **a tiny fraction of typical model cost**.
 - **Built for scale & reliability** — async pipeline, caching, budget guards, and per-source fault isolation.
 - **Production-shaped** — auth, admin tooling, migrations, backups, exports, containerized deployment — not a prototype.
 
