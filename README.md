@@ -25,7 +25,11 @@ Background workers continuously collect from many signal sources in parallel. Th
 
 ![AI Hotspot Radar](screenshots/01-hotspot-radar.png)
 
+![AI Hotspot Radar — source stream & status](screenshots/02-hotspot-radar-2.png)
+
 ![Aggregated topics](screenshots/03-topics.png)
+
+![Aggregated topics — detail](screenshots/04-topics-2.png)
 
 ## Precise analysis, scoring & reports
 
